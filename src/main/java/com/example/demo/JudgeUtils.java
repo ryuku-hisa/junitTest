@@ -27,7 +27,7 @@ public class JudgeUtils extends MiraiPrjApplication {
 
 		// 現在の年月日のみをセット
 		compareCal.set(curYear, curMonth, curDate);
-		// 年からプレイ可能年齢を引く
+		// 年から課金可能年齢を引く
 		compareCal.add(Calendar.YEAR, -BILL_AGE);
 
 		// 生年月日を設定
